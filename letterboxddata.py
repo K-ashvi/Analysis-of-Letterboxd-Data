@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-path = r"C:\Users\kashv\Downloads\letterboxd data\diary.csv"
+path = "./diary.csv"
 df = pd.read_csv(path)
 print("CSV file loaded successfully.")
 #displaying columns
